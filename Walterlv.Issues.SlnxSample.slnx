@@ -1,0 +1,8 @@
+﻿<Solution>
+  <Project Path="BuildDependencyExecutable\BuildDependencyExecutable.csproj" />
+  <Project Path="BuildDependencyLibrary\BuildDependencyLibrary.csproj" />
+  <Project Path="SlnxSampleApp\SlnxSampleApp.csproj">
+    <BuildDependency Project="BuildDependencyExecutable\BuildDependencyExecutable.csproj" />
+    <BuildDependency Project="BuildDependencyLibrary\BuildDependencyLibrary.csproj" />
+  </Project>
+</Solution>
